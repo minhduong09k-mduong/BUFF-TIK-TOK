@@ -1,1 +1,5 @@
-aiohttp==3.9.5
+requests
+aiohttp
+beautifulsoup4
+fake-useragent
+cloudscraper
