@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/like",  "dest": "/api/like.py"  },
+    { "src": "/api/view",  "dest": "/api/view.py"  },
+    { "src": "/api/fl",    "dest": "/api/fl.py"    },
+    { "src": "/api/token", "dest": "/api/token.py" }
+  ]
+}
